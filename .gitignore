@@ -1,8 +1,5 @@
-# Ignorar pastas de ambiente virtual (se estiver usando)
-venv/
-.venv/
-# Ignorar arquivos do Pandas/logs
-__pycache__/
+# Ignorar arquivos sensíveis e de cache
 *.pyc
-*.log
+__pycache__/
+venv/
 futebol_stats.xlsx
